@@ -62,12 +62,17 @@ h2 {
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.footer1 {
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: transparent;
 }
-
 
 h1 {
     color: white;
@@ -100,7 +105,10 @@ body > .container {
 .footer > .container {
     padding-right: 10px;
     padding-left: 10px;
+
 }
+
+
 
 code {
     font-size: 80%;
